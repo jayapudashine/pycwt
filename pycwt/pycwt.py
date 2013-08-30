@@ -5,6 +5,7 @@ Implement continuous wavelet transform for python
 import scipy.signal
 import numpy as np
 import pywt
+import matplotlib.pyplot as plt
 
 class CWT:
 	def __init__(self , waveletType):
